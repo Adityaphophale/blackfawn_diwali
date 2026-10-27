@@ -1,0 +1,24 @@
+{
+  "name": "blackfawn-diwali-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BLACKFAWN Diwali Corporate Gifting 2026 Landing Page",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "vite build",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

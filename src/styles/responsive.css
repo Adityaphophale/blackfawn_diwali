@@ -1,0 +1,225 @@
+/* BLACKFAWN Diwali Corporate Gifting 2026 - Responsive Styles */
+
+/* ==========================================================================
+   LAPTOPS (1024px - 1439px)
+   ========================================================================== */
+@media (max-width: 1439px) {
+  .everyday-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ==========================================================================
+   TABLETS (768px - 1023px)
+   ========================================================================== */
+@media (max-width: 1023px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .hero-visual-wrapper {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  .hampers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
+
+  .builder-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .builder-summary-card {
+    position: static;
+    margin-top: var(--space-6);
+  }
+
+  .celebration-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-5);
+  }
+
+  .premium-boxes-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  .everyday-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .customisation-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-8);
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ==========================================================================
+   MOBILES (320px - 767px)
+   ========================================================================== */
+@media (max-width: 767px) {
+  :root {
+    --container-padding: 1rem;
+    --space-16: 3rem;
+    --space-20: 3.5rem;
+    --space-24: 4rem;
+  }
+
+  .section-title {
+    font-size: var(--text-2xl);
+  }
+
+  .section-desc {
+    font-size: var(--text-base);
+  }
+
+  .hero-section {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-12);
+  }
+
+  .hero-title-main {
+    font-size: 2.25rem;
+  }
+
+  .hero-title-sub {
+    font-size: 1.25rem;
+  }
+
+  .hero-desc {
+    font-size: var(--text-base);
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+  }
+
+  .hero-highlights-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+
+  .hampers-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .builder-options-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+
+  .celebration-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .everyday-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .customisation-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .form-group.col-span-2 {
+    grid-column: span 1;
+  }
+
+  .enquiry-form-card {
+    padding: var(--space-5);
+  }
+
+  .mix-match-banner {
+    padding: var(--space-5);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mix-match-banner .btn {
+    width: 100%;
+  }
+
+  .pair-banner {
+    padding: var(--space-4);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pair-banner .btn {
+    width: 100%;
+  }
+
+  .final-cta-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .final-cta-buttons .btn {
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Safe interactive touch targets */
+  .btn, .filter-btn, .faq-question-btn, .mobile-nav-link {
+    min-height: 44px;
+  }
+}
